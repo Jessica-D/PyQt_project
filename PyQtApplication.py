@@ -2,6 +2,7 @@ import sys
 from PyQt4 import QtCore, QtGui, uic
 
 qtCreatorFile = "PyQtApplication.Designer.ui"
+#get the path of this file, to ensure it finds the file
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
